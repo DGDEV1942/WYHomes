@@ -1,0 +1,5 @@
+
+.home #TopBannerMain, #core_menu_wrapper, span.ftext, footer, .home .jumbostyle1 .btn  {
+  background: #B31919;
+} 
+.btn, .btn-primary , .home .tabstyle1 .nav-tabs { border: 1px solid #B31919;    background: #B31919; }

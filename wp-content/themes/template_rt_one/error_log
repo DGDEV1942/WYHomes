@@ -1,0 +1,10 @@
+[14-Dec-2015 19:06:24 UTC] PHP Warning:  require_once(wp-blog-header.php): failed to open stream: No such file or directory in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/createuser.php on line 12
+[14-Dec-2015 19:06:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-blog-header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/createuser.php on line 12
+[01-Mar-2016 00:04:58 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[01-Mar-2016 11:59:06 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[01-Mar-2016 15:19:49 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[12-Mar-2016 23:03:34 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[13-Mar-2016 22:54:00 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[14-Mar-2016 07:59:11 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[14-Mar-2016 08:04:04 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10
+[16-Jun-2016 17:04:22 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/wyhomesearch/public_html/wp-content/themes/template_rt_one/directory-searchform.php on line 10

@@ -1,0 +1,8 @@
+*locationlist.js
+.DS_Store
+.DS_Store?
+.Trashes
+node_modules
+vendor
+composer.lock
+*.swp

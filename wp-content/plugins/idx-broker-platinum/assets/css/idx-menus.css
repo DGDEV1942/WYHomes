@@ -1,0 +1,81 @@
+#toplevel_page_idx-broker .dashicons-before:before {
+    content: '\e021';
+    font-family: 'properticons';
+    font-size: 28pt;
+    padding-top: 0px;
+    margin-top: -8px;
+}
+#wpadminbar .properticons-logo-idx:before {
+    content: '\e021';
+    font-family: 'properticons';
+    font-size: 36pt;
+    top: -18px;
+    vertical-align: top;
+}
+#wp-admin-bar-idx_admin_bar_menu-default .update-plugins {
+    padding: 0 6px 0 4px;
+    font-weight: 100;
+    margin-left:5px;
+    font-family: FontAwesome;
+    background-color: #d54e21;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+}
+.toplevel_page_idx-broker .update-plugins {
+    padding: 0 5px 0 4px;
+    font-weight: 100;
+    margin: 0 0 0 6px;
+    vertical-align:bottom;
+}
+
+/*help button glow*/
+@-webkit-keyframes glowing {
+  0% {-webkit-box-shadow: 0 0 3px #004A7F; }
+  50% {-webkit-box-shadow: 0 0 10px #0094FF; }
+  100% {-webkit-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-moz-keyframes glowing {
+  0% {-moz-box-shadow: 0 0 3px #004A7F; }
+  50% {-moz-box-shadow: 0 0 10px #0094FF; }
+  100% {-moz-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-o-keyframes glowing {
+  0% {box-shadow: 0 0 3px #004A7F; }
+  50% {box-shadow: 0 0 10px #0094FF; }
+  100% {box-shadow: 0 0 3px #004A7F; }
+}
+
+@keyframes glowing {
+  0% {box-shadow: 0 0 3px #004A7F; }
+  50% {box-shadow: 0 0 10px #0094FF; }
+  100% {box-shadow: 0 0 3px #004A7F; }
+}
+
+#contextual-help-link.glow {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+/*
+ * review prompt
+ */
+.idx_review_prompt {
+    position: relative;
+}
+.idx_review_prompt.updated p {
+    margin-right: 2rem;
+}
+div.idx_review_prompt.updated a {
+    text-decoration: none;
+    display: inline-block;
+}
+/* yoast uses important tag, so we have to */
+.idx_review_prompt .button-primary {
+    color: #fff !important;
+}

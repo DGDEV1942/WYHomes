@@ -1,0 +1,485 @@
+0000.022 (0) Opened log file at time: Sat, 28 Jan 2017 01:08:52 +0000 on http://23.250.19.146/wyhomesearch
+0000.025 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.23 WP: 4.6.3 PHP: 5.4.45 (cgi-fcgi, Linux www.primotech.com 2.6.32-042stab116.1 #1 SMP Wed May 4 16:21:02 MSK 2016 x86_64) MySQL: 5.5.52 WPLANG: en_US Server: Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 36.4M | 37.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.392 (0) Free space on disk containing Updraft's temporary directory: 52313.2 MB
+0000.397 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.399 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.414 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1482963384, seconds_ago=2602348)
+0000.428 (0) Set semaphore last lock (fd) time to 2017-01-28 01:08:52
+0000.430 (0) Semaphore lock (fd) complete
+0000.472 (0) Backup run: resumption=0, nonce=5c893725e76c, begun at=1485565732 (0s ago), job type=backup
+0000.477 (0) Scheduling a resumption (1) after 300 seconds (1485566032) in case this run gets aborted
+0000.501 (0) OpenVZ; reported memory: 4096 MB
+0000.504 (0) Checking if we have a zip executable available
+0000.506 (0) Testing: /usr/bin/zip
+0000.542 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.545 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.547 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.549 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.550 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.556 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.558 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.589 (0) Working binary zip found: /usr/bin/zip
+0000.593 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.595 (0) Creation of backups of directories: beginning
+0000.600 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.152 (0) Total entities for the zip file: 1019 directories, 6263 files (0 skipped as non-modified), 77.5 MB
+0001.159 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.163 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.168 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.173 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.177 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.179 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 6263 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.630 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 3.20 MB
+0001.638 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 600 files added (on-disk size: 3299 KB)
+0001.642 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 700 files added (on-disk size: 3299 KB)
+0001.648 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 800 files added (on-disk size: 3299 KB)
+0001.655 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 900 files added (on-disk size: 3299 KB)
+0001.660 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1000 files added (on-disk size: 3299 KB)
+0001.662 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 6263 files batched, 501 (1002) added so far); re-opening (prior size: 3299 KB)
+0002.037 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 4.50 MB
+0002.046 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1100 files added (on-disk size: 4640.3 KB)
+0002.052 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1200 files added (on-disk size: 4640.3 KB)
+0002.057 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1300 files added (on-disk size: 4640.3 KB)
+0002.062 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1400 files added (on-disk size: 4640.3 KB)
+0002.069 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1500 files added (on-disk size: 4640.3 KB)
+0002.072 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 6263 files batched, 501 (1503) added so far); re-opening (prior size: 4640.3 KB)
+0002.745 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 7.70 MB
+0002.754 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1600 files added (on-disk size: 7907.9 KB)
+0002.759 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1700 files added (on-disk size: 7907.9 KB)
+0002.765 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1800 files added (on-disk size: 7907.9 KB)
+0002.770 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 1900 files added (on-disk size: 7907.9 KB)
+0002.774 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2000 files added (on-disk size: 7907.9 KB)
+0002.776 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 6263 files batched, 501 (2004) added so far); re-opening (prior size: 7907.9 KB)
+0003.009 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 11.00 MB
+0003.018 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2100 files added (on-disk size: 11300.2 KB)
+0003.022 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2200 files added (on-disk size: 11300.2 KB)
+0003.026 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2300 files added (on-disk size: 11300.2 KB)
+0003.031 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2400 files added (on-disk size: 11300.2 KB)
+0003.035 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2500 files added (on-disk size: 11300.2 KB)
+0003.037 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 6263 files batched, 501 (2505) added so far); re-opening (prior size: 11300.2 KB)
+0003.568 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 14.00 MB
+0003.577 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2600 files added (on-disk size: 14361.1 KB)
+0003.582 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2700 files added (on-disk size: 14361.1 KB)
+0003.586 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2800 files added (on-disk size: 14361.1 KB)
+0003.591 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 2900 files added (on-disk size: 14361.1 KB)
+0003.595 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3000 files added (on-disk size: 14361.1 KB)
+0003.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 6263 files batched, 501 (3006) added so far); re-opening (prior size: 14361.1 KB)
+0003.845 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3100 files added (on-disk size: 15890.6 KB)
+0003.850 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3200 files added (on-disk size: 15890.6 KB)
+0003.855 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3300 files added (on-disk size: 15890.6 KB)
+0003.859 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3400 files added (on-disk size: 15890.6 KB)
+0003.864 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3500 files added (on-disk size: 15890.6 KB)
+0003.866 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 6263 files batched, 501 (3507) added so far); re-opening (prior size: 15890.6 KB)
+0004.315 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3600 files added (on-disk size: 16911.2 KB)
+0004.320 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3700 files added (on-disk size: 16911.2 KB)
+0004.324 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3800 files added (on-disk size: 16911.2 KB)
+0004.329 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 3900 files added (on-disk size: 16911.2 KB)
+0004.333 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4000 files added (on-disk size: 16911.2 KB)
+0004.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.8 MB, 6263 files batched, 501 (4008) added so far); re-opening (prior size: 16911.2 KB)
+0004.939 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: size is now: 28.90 MB
+0004.951 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4100 files added (on-disk size: 29544.6 KB)
+0004.956 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4200 files added (on-disk size: 29544.6 KB)
+0004.961 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4300 files added (on-disk size: 29544.6 KB)
+0004.966 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4400 files added (on-disk size: 29544.6 KB)
+0004.970 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4500 files added (on-disk size: 29544.6 KB)
+0004.972 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 6263 files batched, 501 (4509) added so far); re-opening (prior size: 29544.6 KB)
+0005.495 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4600 files added (on-disk size: 31609 KB)
+0005.510 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4700 files added (on-disk size: 31609 KB)
+0005.518 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4800 files added (on-disk size: 31609 KB)
+0005.526 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 4900 files added (on-disk size: 31609 KB)
+0005.533 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5000 files added (on-disk size: 31609 KB)
+0005.537 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 6263 files batched, 501 (5010) added so far); re-opening (prior size: 31609 KB)
+0006.299 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5100 files added (on-disk size: 35612.5 KB)
+0006.308 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5200 files added (on-disk size: 35612.5 KB)
+0006.316 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5300 files added (on-disk size: 35612.5 KB)
+0006.325 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5400 files added (on-disk size: 35612.5 KB)
+0006.334 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5500 files added (on-disk size: 35612.5 KB)
+0006.338 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 6263 files batched, 501 (5511) added so far); re-opening (prior size: 35612.5 KB)
+0006.834 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5600 files added (on-disk size: 36856.3 KB)
+0006.839 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5700 files added (on-disk size: 36856.3 KB)
+0006.845 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5800 files added (on-disk size: 36856.3 KB)
+0006.850 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 5900 files added (on-disk size: 36856.3 KB)
+0006.856 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 6000 files added (on-disk size: 36856.3 KB)
+0006.859 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 6263 files batched, 501 (6012) added so far); re-opening (prior size: 36856.3 KB)
+0007.238 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 6100 files added (on-disk size: 38020.8 KB)
+0007.243 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip.tmp: 6200 files added (on-disk size: 38020.8 KB)
+0008.014 (0) Created plugins zip (0) - 40011.7 KB in 7.3 s (5475.7 KB/s) (SHA1 checksum: 60c105dd5412ddebff49c0fd6d7735c1a0700e47)
+0008.019 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.380 (0) Total entities for the zip file: 99 directories, 1321 files (0 skipped as non-modified), 25.8 MB
+0008.385 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.390 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.396 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.401 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.406 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.408 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.6 MB, 1321 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0010.042 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: size is now: 13.80 MB
+0010.051 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 600 files added (on-disk size: 14159.3 KB)
+0010.056 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 700 files added (on-disk size: 14159.3 KB)
+0010.060 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 800 files added (on-disk size: 14159.3 KB)
+0010.065 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 900 files added (on-disk size: 14159.3 KB)
+0010.070 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 1000 files added (on-disk size: 14159.3 KB)
+0010.072 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 1321 files batched, 501 (1002) added so far); re-opening (prior size: 14159.3 KB)
+0010.517 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 1100 files added (on-disk size: 16201.4 KB)
+0010.524 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 1200 files added (on-disk size: 16201.4 KB)
+0010.532 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: 1300 files added (on-disk size: 16201.4 KB)
+0010.909 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip.tmp: size is now: 20.00 MB
+0011.095 (0) Created themes zip (0) - 20446.7 KB in 3 s (6836.1 KB/s) (SHA1 checksum: f7647490517bc3de0c163b3ffc1f62109c84f2e3)
+0011.102 (0) Exclusion option setting (uploads): updraft
+0011.104 (0) Looking for candidates to back up in: /home/habitech/public_html/wyhomesearch/wp-content/uploads
+0011.107 (0) finding files: 2014: adding to list (1)
+0011.109 (0) finding files: index.php: adding to list (2)
+0011.120 (0) finding files: 2015: adding to list (3)
+0011.122 (0) finding files: 2017: adding to list (4)
+0011.124 (0) finding files: 2012: adding to list (5)
+0011.126 (0) finding files: quarantine: adding to list (6)
+0011.128 (0) finding files: 2016: adding to list (7)
+0011.129 (0) finding files: wp-migrate-db: adding to list (8)
+0011.131 (0) finding files: 2013: adding to list (9)
+0011.133 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.294 (0) Total entities for the zip file: 49 directories, 415 files (0 skipped as non-modified), 36.4 MB
+0011.302 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.309 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.313 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 415 files batched, 254 (254) added so far); re-opening (prior size: 0 KB)
+0012.713 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: size is now: 25.20 MB
+0012.731 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2 s, rate: 12498.2 KB/s)
+0012.737 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.08272194862, normalised_time=2.04828696798, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=76789240)
+0012.744 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: 300 files added (on-disk size: 25753.9 KB)
+0012.751 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: 400 files added (on-disk size: 25753.9 KB)
+0013.118 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip.tmp: size is now: 36.20 MB
+0013.350 (0) Created uploads zip (0) - 37040.2 KB in 2.1 s (17471.8 KB/s) (SHA1 checksum: 9e1559631bbeb3172741276922ca71d411095b2b)
+0013.354 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.356 (0) Exclusion option setting (others): 
+0013.357 (0) Looking for candidates to back up in: /home/habitech/public_html/wyhomesearch/wp-content
+0013.359 (0) finding files: plugins: skipping: this is the plugins directory
+0013.361 (0) finding files: mingle-forum-skins: adding to list (1)
+0013.362 (0) finding files: index.php: adding to list (2)
+0013.364 (0) finding files: DE_clTimeTaken.php: adding to list (3)
+0013.365 (0) finding files: DE_clMemoryPeak.php: adding to list (4)
+0013.367 (0) finding files: blogs.dir: adding to list (5)
+0013.368 (0) finding files: header-images: adding to list (6)
+0013.370 (0) finding files: Project Plan.xlsx: adding to list (7)
+0013.372 (0) finding files: updraft: skipping: this is the updraft directory
+0013.373 (0) finding files: themes: skipping: this is the themes directory
+0013.375 (0) finding files: upgrade: adding to list (8)
+0013.376 (0) finding files: infinitewp: adding to list (9)
+0013.378 (0) finding files: DE_clMemoryUsage.php: adding to list (10)
+0013.380 (0) finding files: db.php: adding to list (11)
+0013.382 (0) finding files: sunrise.php: adding to list (12)
+0013.384 (0) finding files: _ms-themes: adding to list (13)
+0013.385 (0) finding files: uploads: skipping: this is the uploads directory
+0013.388 (0) finding files: _mu-plugins: adding to list (14)
+0013.553 (0) Total entities for the zip file: 31 directories, 114 files (0 skipped as non-modified), 97.4 MB
+0013.558 (0) Zip: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 73.2 MB added on this batch (97.4 MB, 114 files batched, 105 (105) added so far); re-opening (prior size: 0 KB)
+0015.795 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-others.zip.tmp: size is now: 97.30 MB
+0015.800 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 2.4 s, rate: 31635.9 KB/s)
+0015.805 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.15132188797, normalised_time=2.37039187436, max_time=-1, data points known=0, old_max_bytes=76789240, new_max_bytes=194371000)
+0016.581 (0) Created others zip (0) - 99672.8 KB in 3.1 s (32083.6 KB/s) (SHA1 checksum: 07fbb2aea345956db735e13f2667dfca99873c54)
+0016.590 (0) Saving backup status to database (elements: 8)
+0016.594 (0) Beginning creation of database dump (WordPress DB)
+0016.597 (0) Testing: /usr/bin/mysqldump
+0016.669 (0) Binary mysqldump: error (code: 2)
+0016.850 (0) Table wp_ghxcvoptions: Total expected rows (approximate): 1126
+0016.937 (0) Table wp_ghxcvoptions: Total rows added: 701 in 0.09 seconds
+0016.940 (0) Table wp_ghxcvoptions: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvoptions.table.gz - 307.7 KB)
+0016.950 (0) Table wp_ghxcvsite: Total expected rows (approximate): 1
+0016.953 (0) Table wp_ghxcvsite: Total rows added: 1 in 0.00 seconds
+0016.955 (0) Table wp_ghxcvsite: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsite.table.gz - 0.3 KB)
+0016.961 (0) Table wp_ghxcvblogs: Total expected rows (approximate): 2
+0016.964 (0) Table wp_ghxcvblogs: Total rows added: 2 in 0.00 seconds
+0016.966 (0) Table wp_ghxcvblogs: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvblogs.table.gz - 0.5 KB)
+0016.972 (0) Table wp_ghxcvusers: Total expected rows (approximate): 902
+0017.101 (0) Table wp_ghxcvusers: Total rows added: 980 in 0.13 seconds
+0017.104 (0) Table wp_ghxcvusers: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvusers.table.gz - 63.3 KB)
+0017.201 (0) Table wp_ghxcvusermeta: Total expected rows (approximate): 11495
+0017.633 (0) Table wp_ghxcvusermeta: Total rows added: 12684 in 0.43 seconds
+0017.636 (0) Table wp_ghxcvusermeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvusermeta.table.gz - 132.6 KB)
+0017.643 (0) Table wp_ghxcvblog_versions: Total expected rows (approximate): 2
+0017.646 (0) Table wp_ghxcvblog_versions: Total rows added: 2 in 0.00 seconds
+0017.648 (0) Table wp_ghxcvblog_versions: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvblog_versions.table.gz - 0.4 KB)
+0017.655 (0) Table wp_ghxcvcommentmeta: Total expected rows (approximate): 0
+0017.658 (0) Table wp_ghxcvcommentmeta: Total rows added: 0 in 0.00 seconds
+0017.661 (0) Table wp_ghxcvcommentmeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcommentmeta.table.gz - 0.4 KB)
+0017.669 (0) Table wp_ghxcvcomments: Total expected rows (approximate): 0
+0017.672 (0) Table wp_ghxcvcomments: Total rows added: 0 in 0.00 seconds
+0017.674 (0) Table wp_ghxcvcomments: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcomments.table.gz - 0.5 KB)
+0017.680 (0) Table wp_ghxcvlinks: Total expected rows (approximate): 7
+0017.683 (0) Table wp_ghxcvlinks: Total rows added: 7 in 0.00 seconds
+0017.685 (0) Table wp_ghxcvlinks: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvlinks.table.gz - 0.6 KB)
+0017.728 (0) Table wp_ghxcvpostmeta: Total expected rows (approximate): 4814
+0017.919 (0) Table wp_ghxcvpostmeta: Total rows added: 5442 in 0.19 seconds
+0017.922 (0) Table wp_ghxcvpostmeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvpostmeta.table.gz - 75.1 KB)
+0017.956 (0) Table wp_ghxcvposts: Total expected rows (approximate): 920
+0018.124 (0) Table wp_ghxcvposts: Total rows added: 899 in 0.17 seconds
+0018.129 (0) Table wp_ghxcvposts: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvposts.table.gz - 171.1 KB)
+0018.140 (0) Table wp_ghxcvregistration_log: Total expected rows (approximate): 1
+0018.144 (0) Table wp_ghxcvregistration_log: Total rows added: 1 in 0.00 seconds
+0018.148 (0) Table wp_ghxcvregistration_log: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvregistration_log.table.gz - 0.4 KB)
+0018.155 (0) Table wp_ghxcvsignups: Total expected rows (approximate): 2
+0018.159 (0) Table wp_ghxcvsignups: Total rows added: 2 in 0.00 seconds
+0018.161 (0) Table wp_ghxcvsignups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsignups.table.gz - 0.5 KB)
+0018.213 (0) Table wp_ghxcvsitemeta: Total expected rows (approximate): 117
+0018.252 (0) Table wp_ghxcvsitemeta: Total rows added: 152 in 0.04 seconds
+0018.255 (0) Table wp_ghxcvsitemeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsitemeta.table.gz - 13.2 KB)
+0018.298 (0) Table wp_ghxcvterm_relationships: Total expected rows (approximate): 247
+0018.305 (0) Table wp_ghxcvterm_relationships: Total rows added: 247 in 0.00 seconds
+0018.308 (0) Table wp_ghxcvterm_relationships: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterm_relationships.table.gz - 1.1 KB)
+0018.327 (0) Table wp_ghxcvterm_taxonomy: Total expected rows (approximate): 637
+0018.349 (0) Table wp_ghxcvterm_taxonomy: Total rows added: 598 in 0.02 seconds
+0018.368 (0) Table wp_ghxcvterm_taxonomy: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterm_taxonomy.table.gz - 3.9 KB)
+0018.379 (0) Table wp_ghxcvtermmeta: Total expected rows (approximate): 0
+0018.384 (0) Table wp_ghxcvtermmeta: Total rows added: 0 in 0.00 seconds
+0018.387 (0) Table wp_ghxcvtermmeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvtermmeta.table.gz - 0.4 KB)
+0018.399 (0) Table wp_ghxcvterms: Total expected rows (approximate): 757
+0018.424 (0) Table wp_ghxcvterms: Total rows added: 598 in 0.02 seconds
+0018.428 (0) Table wp_ghxcvterms: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterms.table.gz - 8 KB)
+0018.434 (0) Skipping table (lacks our prefix (wp_ghxcv)): _mig_wpmdb_alter_statements
+0018.440 (0) Table wp_ghxcv2_commentmeta: Total expected rows (approximate): 42
+0018.445 (0) Table wp_ghxcv2_commentmeta: Total rows added: 42 in 0.00 seconds
+0018.449 (0) Table wp_ghxcv2_commentmeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_commentmeta.table.gz - 0.6 KB)
+0018.546 (0) Table wp_ghxcv2_comments: Total expected rows (approximate): 588
+0018.735 (0) Table wp_ghxcv2_comments: Total rows added: 521 in 0.17 seconds
+0018.737 (0) Table wp_ghxcv2_comments: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_comments.table.gz - 279.1 KB)
+0018.744 (0) Table wp_ghxcv2_forum_forums: Total expected rows (approximate): 1
+0018.752 (0) Table wp_ghxcv2_forum_forums: Total rows added: 1 in 0.00 seconds
+0018.755 (0) Table wp_ghxcv2_forum_forums: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_forums.table.gz - 0.4 KB)
+0018.766 (0) Table wp_ghxcv2_forum_groups: Total expected rows (approximate): 2
+0018.770 (0) Table wp_ghxcv2_forum_groups: Total rows added: 2 in 0.00 seconds
+0018.773 (0) Table wp_ghxcv2_forum_groups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_groups.table.gz - 0.4 KB)
+0018.808 (0) Table wp_ghxcv2_forum_posts: Total expected rows (approximate): 7
+0018.812 (0) Table wp_ghxcv2_forum_posts: Total rows added: 5 in 0.00 seconds
+0018.815 (0) Table wp_ghxcv2_forum_posts: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_posts.table.gz - 7.4 KB)
+0018.821 (0) Table wp_ghxcv2_forum_threads: Total expected rows (approximate): 5
+0018.824 (0) Table wp_ghxcv2_forum_threads: Total rows added: 5 in 0.00 seconds
+0018.826 (0) Table wp_ghxcv2_forum_threads: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_threads.table.gz - 0.6 KB)
+0018.832 (0) Table wp_ghxcv2_forum_usergroup2user: Total expected rows (approximate): 0
+0018.834 (0) Table wp_ghxcv2_forum_usergroup2user: Total rows added: 0 in 0.00 seconds
+0018.836 (0) Table wp_ghxcv2_forum_usergroup2user: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_usergroup2user.table.gz - 0.3 KB)
+0018.843 (0) Table wp_ghxcv2_forum_usergroups: Total expected rows (approximate): 0
+0018.845 (0) Table wp_ghxcv2_forum_usergroups: Total rows added: 0 in 0.00 seconds
+0018.847 (0) Table wp_ghxcv2_forum_usergroups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_usergroups.table.gz - 0.3 KB)
+0018.854 (0) Table wp_ghxcv2_links: Total expected rows (approximate): 7
+0018.858 (0) Table wp_ghxcv2_links: Total rows added: 7 in 0.00 seconds
+0018.861 (0) Table wp_ghxcv2_links: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_links.table.gz - 0.6 KB)
+0018.868 (0) Table wp_ghxcv2_options: Total expected rows (approximate): 310
+0018.926 (0) Table wp_ghxcv2_options: Total rows added: 280 in 0.05 seconds
+0018.929 (0) Table wp_ghxcv2_options: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_options.table.gz - 64.3 KB)
+0018.938 (0) Table wp_ghxcv2_orderdata: Total expected rows (approximate): 0
+0018.943 (0) Table wp_ghxcv2_orderdata: Total rows added: 0 in 0.00 seconds
+0018.947 (0) Table wp_ghxcv2_orderdata: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_orderdata.table.gz - 0.4 KB)
+0018.958 (0) Table wp_ghxcv2_postmeta: Total expected rows (approximate): 287
+0018.973 (0) Table wp_ghxcv2_postmeta: Total rows added: 237 in 0.01 seconds
+0018.976 (0) Table wp_ghxcv2_postmeta: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_postmeta.table.gz - 3.3 KB)
+0018.985 (0) Table wp_ghxcv2_posts: Total expected rows (approximate): 246
+0019.045 (0) Table wp_ghxcv2_posts: Total rows added: 314 in 0.06 seconds
+0019.048 (0) Table wp_ghxcv2_posts: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_posts.table.gz - 53.8 KB)
+0019.055 (0) Table wp_ghxcv2_redirection_groups: Total expected rows (approximate): 2
+0019.058 (0) Table wp_ghxcv2_redirection_groups: Total rows added: 2 in 0.00 seconds
+0019.060 (0) Table wp_ghxcv2_redirection_groups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_groups.table.gz - 0.4 KB)
+0019.066 (0) Table wp_ghxcv2_redirection_items: Total expected rows (approximate): 13
+0019.070 (0) Table wp_ghxcv2_redirection_items: Total rows added: 13 in 0.00 seconds
+0019.072 (0) Table wp_ghxcv2_redirection_items: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_items.table.gz - 0.9 KB)
+0019.267 (0) Table wp_ghxcv2_redirection_logs: Total expected rows (approximate): 40980
+0022.872 (0) Table wp_ghxcv2_redirection_logs: Total rows added: 41962 in 3.60 seconds
+0022.876 (0) Table wp_ghxcv2_redirection_logs: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_logs.table.gz - 885.8 KB)
+0022.883 (0) Table wp_ghxcv2_redirection_modules: Total expected rows (approximate): 3
+0022.886 (0) Table wp_ghxcv2_redirection_modules: Total rows added: 3 in 0.00 seconds
+0022.889 (0) Table wp_ghxcv2_redirection_modules: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_modules.table.gz - 0.4 KB)
+0022.896 (0) Table wp_ghxcv2_term_relationships: Total expected rows (approximate): 19
+0022.899 (0) Table wp_ghxcv2_term_relationships: Total rows added: 19 in 0.00 seconds
+0022.901 (0) Table wp_ghxcv2_term_relationships: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_term_relationships.table.gz - 0.4 KB)
+0022.909 (0) Table wp_ghxcv2_term_taxonomy: Total expected rows (approximate): 155
+0022.916 (0) Table wp_ghxcv2_term_taxonomy: Total rows added: 155 in 0.01 seconds
+0022.919 (0) Table wp_ghxcv2_term_taxonomy: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_term_taxonomy.table.gz - 1.3 KB)
+0022.927 (0) Table wp_ghxcv2_terms: Total expected rows (approximate): 154
+0022.934 (0) Table wp_ghxcv2_terms: Total rows added: 154 in 0.00 seconds
+0022.936 (0) Table wp_ghxcv2_terms: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_terms.table.gz - 2.3 KB)
+0022.943 (0) Table wp_ghxcvcf7dbplugin_st: Total expected rows (approximate): 27
+0022.946 (0) Table wp_ghxcvcf7dbplugin_st: Total rows added: 27 in 0.00 seconds
+0022.948 (0) Table wp_ghxcvcf7dbplugin_st: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcf7dbplugin_st.table.gz - 0.5 KB)
+0022.955 (0) Table wp_ghxcvcf7dbplugin_submits: Total expected rows (approximate): 601
+0023.021 (0) Table wp_ghxcvcf7dbplugin_submits: Total rows added: 406 in 0.06 seconds
+0023.024 (0) Table wp_ghxcvcf7dbplugin_submits: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcf7dbplugin_submits.table.gz - 3.9 KB)
+0023.042 (0) Table wp_ghxcvcore_withdrawal: Total expected rows (approximate): 0
+0023.045 (0) Table wp_ghxcvcore_withdrawal: Total rows added: 0 in 0.00 seconds
+0023.047 (0) Table wp_ghxcvcore_withdrawal: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcore_withdrawal.table.gz - 0.3 KB)
+0023.054 (0) Table wp_ghxcvdomain_mapping: Total expected rows (approximate): 4
+0023.057 (0) Table wp_ghxcvdomain_mapping: Total rows added: 4 in 0.00 seconds
+0023.059 (0) Table wp_ghxcvdomain_mapping: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvdomain_mapping.table.gz - 0.4 KB)
+0023.066 (0) Table wp_ghxcvdomain_mapping_logins: Total expected rows (approximate): 32
+0023.069 (0) Table wp_ghxcvdomain_mapping_logins: Total rows added: 32 in 0.00 seconds
+0023.081 (0) Table wp_ghxcvdomain_mapping_logins: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvdomain_mapping_logins.table.gz - 1.3 KB)
+0023.088 (0) Table wp_ghxcvforum_forums: Total expected rows (approximate): 0
+0023.091 (0) Table wp_ghxcvforum_forums: Total rows added: 0 in 0.00 seconds
+0023.093 (0) Table wp_ghxcvforum_forums: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_forums.table.gz - 0.3 KB)
+0023.101 (0) Table wp_ghxcvforum_groups: Total expected rows (approximate): 0
+0023.104 (0) Table wp_ghxcvforum_groups: Total rows added: 0 in 0.00 seconds
+0023.106 (0) Table wp_ghxcvforum_groups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_groups.table.gz - 0.3 KB)
+0023.113 (0) Table wp_ghxcvforum_posts: Total expected rows (approximate): 0
+0023.115 (0) Table wp_ghxcvforum_posts: Total rows added: 0 in 0.00 seconds
+0023.118 (0) Table wp_ghxcvforum_posts: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_posts.table.gz - 0.3 KB)
+0023.124 (0) Table wp_ghxcvforum_threads: Total expected rows (approximate): 0
+0023.127 (0) Table wp_ghxcvforum_threads: Total rows added: 0 in 0.00 seconds
+0023.129 (0) Table wp_ghxcvforum_threads: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_threads.table.gz - 0.4 KB)
+0023.138 (0) Table wp_ghxcvforum_usergroup2user: Total expected rows (approximate): 0
+0023.141 (0) Table wp_ghxcvforum_usergroup2user: Total rows added: 0 in 0.00 seconds
+0023.143 (0) Table wp_ghxcvforum_usergroup2user: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_usergroup2user.table.gz - 0.3 KB)
+0023.150 (0) Table wp_ghxcvforum_usergroups: Total expected rows (approximate): 0
+0023.159 (0) Table wp_ghxcvforum_usergroups: Total rows added: 0 in 0.00 seconds
+0023.161 (0) Table wp_ghxcvforum_usergroups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_usergroups.table.gz - 0.3 KB)
+0023.168 (0) Table wp_ghxcviwp_backup_status: Total expected rows (approximate): 146
+0023.206 (0) Table wp_ghxcviwp_backup_status: Total rows added: 146 in 0.04 seconds
+0023.208 (0) Table wp_ghxcviwp_backup_status: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcviwp_backup_status.table.gz - 62.4 KB)
+0023.220 (0) Table wp_ghxcviwp_file_list: Total expected rows (approximate): 0
+0023.224 (0) Table wp_ghxcviwp_file_list: Total rows added: 0 in 0.00 seconds
+0023.226 (0) Table wp_ghxcviwp_file_list: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcviwp_file_list.table.gz - 0.4 KB)
+0023.234 (0) Table wp_ghxcvorderdata: Total expected rows (approximate): 0
+0023.237 (0) Table wp_ghxcvorderdata: Total rows added: 0 in 0.00 seconds
+0023.239 (0) Table wp_ghxcvorderdata: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvorderdata.table.gz - 0.4 KB)
+0023.251 (0) Table wp_ghxcvredirection_groups: Total expected rows (approximate): 2
+0023.254 (0) Table wp_ghxcvredirection_groups: Total rows added: 2 in 0.00 seconds
+0023.256 (0) Table wp_ghxcvredirection_groups: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_groups.table.gz - 0.4 KB)
+0023.263 (0) Table wp_ghxcvredirection_items: Total expected rows (approximate): 0
+0023.265 (0) Table wp_ghxcvredirection_items: Total rows added: 0 in 0.00 seconds
+0023.268 (0) Table wp_ghxcvredirection_items: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_items.table.gz - 0.5 KB)
+0023.325 (0) Table wp_ghxcvredirection_logs: Total expected rows (approximate): 1204
+0023.464 (0) Table wp_ghxcvredirection_logs: Total rows added: 1318 in 0.14 seconds
+0023.468 (0) Table wp_ghxcvredirection_logs: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_logs.table.gz - 28 KB)
+0023.491 (0) Table wp_ghxcvredirection_modules: Total expected rows (approximate): 3
+0023.495 (0) Table wp_ghxcvredirection_modules: Total rows added: 3 in 0.00 seconds
+0023.497 (0) Table wp_ghxcvredirection_modules: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_modules.table.gz - 0.4 KB)
+0023.540 (0) Table wp_ghxcvrevslider_css: Total expected rows (approximate): 47
+0023.555 (0) Table wp_ghxcvrevslider_css: Total rows added: 47 in 0.01 seconds
+0023.558 (0) Table wp_ghxcvrevslider_css: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_css.table.gz - 1.8 KB)
+0023.581 (0) Table wp_ghxcvrevslider_layer_animations: Total expected rows (approximate): 0
+0023.584 (0) Table wp_ghxcvrevslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0023.586 (0) Table wp_ghxcvrevslider_layer_animations: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_layer_animations.table.gz - 0.3 KB)
+0023.599 (0) Table wp_ghxcvrevslider_settings: Total expected rows (approximate): 0
+0023.602 (0) Table wp_ghxcvrevslider_settings: Total rows added: 0 in 0.00 seconds
+0023.605 (0) Table wp_ghxcvrevslider_settings: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_settings.table.gz - 0.3 KB)
+0023.634 (0) Table wp_ghxcvrevslider_sliders: Total expected rows (approximate): 0
+0023.638 (0) Table wp_ghxcvrevslider_sliders: Total rows added: 0 in 0.00 seconds
+0023.640 (0) Table wp_ghxcvrevslider_sliders: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_sliders.table.gz - 0.3 KB)
+0023.653 (0) Table wp_ghxcvrevslider_slides: Total expected rows (approximate): 0
+0023.656 (0) Table wp_ghxcvrevslider_slides: Total rows added: 0 in 0.00 seconds
+0023.659 (0) Table wp_ghxcvrevslider_slides: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_slides.table.gz - 0.3 KB)
+0023.666 (0) Table wp_ghxcvwpeditor_settings: Total expected rows (approximate): 24
+0023.669 (0) Table wp_ghxcvwpeditor_settings: Total rows added: 24 in 0.00 seconds
+0023.671 (0) Table wp_ghxcvwpeditor_settings: finishing file (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvwpeditor_settings.table.gz - 0.6 KB)
+0023.678 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvoptions.table.gz (1/63): adding to final database dump
+0023.732 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsite.table.gz (2/63): adding to final database dump
+0023.735 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvblogs.table.gz (3/63): adding to final database dump
+0023.738 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvusers.table.gz (4/63): adding to final database dump
+0023.753 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvusermeta.table.gz (5/63): adding to final database dump
+0023.841 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvblog_versions.table.gz (6/63): adding to final database dump
+0023.844 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcommentmeta.table.gz (7/63): adding to final database dump
+0023.846 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcomments.table.gz (8/63): adding to final database dump
+0023.849 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvlinks.table.gz (9/63): adding to final database dump
+0023.851 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvpostmeta.table.gz (10/63): adding to final database dump
+0023.894 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvposts.table.gz (11/63): adding to final database dump
+0023.932 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvregistration_log.table.gz (12/63): adding to final database dump
+0023.935 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsignups.table.gz (13/63): adding to final database dump
+0023.937 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvsitemeta.table.gz (14/63): adding to final database dump
+0023.942 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterm_relationships.table.gz (15/63): adding to final database dump
+0023.946 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterm_taxonomy.table.gz (16/63): adding to final database dump
+0023.951 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvtermmeta.table.gz (17/63): adding to final database dump
+0023.953 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvterms.table.gz (18/63): adding to final database dump
+0023.960 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_commentmeta.table.gz (19/63): adding to final database dump
+0023.962 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_comments.table.gz (20/63): adding to final database dump
+0024.013 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_forums.table.gz (21/63): adding to final database dump
+0024.026 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_groups.table.gz (22/63): adding to final database dump
+0024.030 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_posts.table.gz (23/63): adding to final database dump
+0024.035 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_threads.table.gz (24/63): adding to final database dump
+0024.038 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_usergroup2user.table.gz (25/63): adding to final database dump
+0024.041 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_forum_usergroups.table.gz (26/63): adding to final database dump
+0024.045 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_links.table.gz (27/63): adding to final database dump
+0024.048 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_options.table.gz (28/63): adding to final database dump
+0024.067 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_orderdata.table.gz (29/63): adding to final database dump
+0024.071 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_postmeta.table.gz (30/63): adding to final database dump
+0024.076 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_posts.table.gz (31/63): adding to final database dump
+0024.094 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_groups.table.gz (32/63): adding to final database dump
+0024.097 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_items.table.gz (33/63): adding to final database dump
+0024.099 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_logs.table.gz (34/63): adding to final database dump
+0024.480 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_redirection_modules.table.gz (35/63): adding to final database dump
+0024.483 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_term_relationships.table.gz (36/63): adding to final database dump
+0024.486 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_term_taxonomy.table.gz (37/63): adding to final database dump
+0024.489 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcv2_terms.table.gz (38/63): adding to final database dump
+0024.493 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcf7dbplugin_st.table.gz (39/63): adding to final database dump
+0024.495 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcf7dbplugin_submits.table.gz (40/63): adding to final database dump
+0024.500 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvcore_withdrawal.table.gz (41/63): adding to final database dump
+0024.503 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvdomain_mapping.table.gz (42/63): adding to final database dump
+0024.505 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvdomain_mapping_logins.table.gz (43/63): adding to final database dump
+0024.507 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_forums.table.gz (44/63): adding to final database dump
+0024.510 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_groups.table.gz (45/63): adding to final database dump
+0024.512 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_posts.table.gz (46/63): adding to final database dump
+0024.514 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_threads.table.gz (47/63): adding to final database dump
+0024.516 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_usergroup2user.table.gz (48/63): adding to final database dump
+0024.519 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvforum_usergroups.table.gz (49/63): adding to final database dump
+0024.521 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcviwp_backup_status.table.gz (50/63): adding to final database dump
+0024.531 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcviwp_file_list.table.gz (51/63): adding to final database dump
+0024.534 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvorderdata.table.gz (52/63): adding to final database dump
+0024.537 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_groups.table.gz (53/63): adding to final database dump
+0024.539 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_items.table.gz (54/63): adding to final database dump
+0024.542 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_logs.table.gz (55/63): adding to final database dump
+0024.556 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvredirection_modules.table.gz (56/63): adding to final database dump
+0024.559 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_css.table.gz (57/63): adding to final database dump
+0024.562 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_layer_animations.table.gz (58/63): adding to final database dump
+0024.565 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_settings.table.gz (59/63): adding to final database dump
+0024.567 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_sliders.table.gz (60/63): adding to final database dump
+0024.569 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvrevslider_slides.table.gz (61/63): adding to final database dump
+0024.571 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db-table-wp_ghxcvwpeditor_settings.table.gz (62/63): adding to final database dump
+0024.574 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db.gz: finished writing out complete database file (2160 KB)
+0024.596 (0) Total database tables backed up: 62 (backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db.gz, size: 2228506, checksum (SHA1): 03325066374a676dc94878bd5486fb7c9227457d)
+0024.606 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0024.609 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0024.611 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0024.613 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0024.615 (0) backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0024.617 (0) Saving backup history. Total backup size: 194.7 MB
+0024.621 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0024.628 (0) Cloud backup selection (1/1): none (last)
+0024.630 (0) No remote despatch: user chose no remote backup service
+0024.634 (0) Recording as successfully uploaded: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-plugins.zip (4893c34bf6c959653c8dddd1255de01a)
+0024.658 (0) Recording as successfully uploaded: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-themes.zip (72f6f7d12b5213917808f97b5581fd62)
+0024.667 (0) Recording as successfully uploaded: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-uploads.zip (db182ff3e56b76bcaa4bf4e739e38ad7)
+0024.676 (0) Recording as successfully uploaded: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-others.zip (7283da242045bae46b7b7c7c5a4ebd32)
+0024.688 (0) Recording as successfully uploaded: backup_2017-01-27-1808_Wyoming_Homes_Magazine_amp_Pro_5c893725e76c-db.gz (8ec83a57087c47b869457c7023b6037c)
+0024.699 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0024.702 (0) Number of backup sets in history: 2; groups (db): 1
+0024.704 (0) Examining (for databases) backup set with group_id=0, nonce=5c893725e76c, datestamp=1485565732 (Jan 28 2017 01:08:52)
+0024.706 (0) This backup set is the backup set just made, so will not be deleted.
+0024.708 (0) Examining (for databases) backup set with group_id=0, nonce=aa22f388a884, datestamp=1482963383 (Dec 28 2016 22:16:23)
+0024.710 (0) 1482963383: db: this set includes a database (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-db.gz); db count is now 1
+0024.712 (0) 1482963383: db: over retain limit (1); will delete this database
+0024.714 (0) Delete file: backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-db.gz, service=none
+0024.717 (0) Deleting local copy (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-db.gz)
+0024.726 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0024.728 (0) Number of backup sets in history: 2; groups (files): 1
+0024.731 (0) Examining (for files) backup set with nonce=5c893725e76c, datestamp=1485565732 (Jan 28 2017 01:08:52)
+0024.733 (0) This backup set is the backup set just made, so will not be deleted.
+0024.735 (0) This backup set is the backup set just made, so will not be deleted.
+0024.735 (0) This backup set is the backup set just made, so will not be deleted.
+0024.735 (0) This backup set is the backup set just made, so will not be deleted.
+0024.735 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0024.737 (0) Examining (for files) backup set with nonce=aa22f388a884, datestamp=1482963383 (Dec 28 2016 22:16:23)
+0024.739 (0) plugins: over retain limit (1); will delete this file entity
+0024.741 (0) themes: over retain limit (1); will delete this file entity
+0024.743 (0) uploads: over retain limit (1); will delete this file entity
+0024.746 (0) others: over retain limit (1); will delete this file entity
+0024.748 (0) Delete file: backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-plugins.zip, service=none
+0024.751 (0) Deleting local copy (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-plugins.zip)
+0024.789 (0) Delete file: backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-themes.zip, service=none
+0024.794 (0) Deleting local copy (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-themes.zip)
+0024.798 (0) Delete file: backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-uploads.zip, service=none
+0024.801 (0) Deleting local copy (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-uploads.zip)
+0024.804 (0) Delete file: backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-others.zip, service=none
+0024.807 (0) Deleting local copy (backup_2016-12-28-1516_Wyoming_Homes_Magazine_amp_Pro_aa22f388a884-others.zip)
+0024.817 (0) This backup set is now empty; will remove from history
+0024.819 (0) Deleting log file (log.aa22f388a884.txt)
+0024.822 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0024.832 (0) Resume backup (5c893725e76c, 0): finish run
+0024.838 (0) Decremented the semaphore (fd) by 1
+0024.841 (0) Semaphore (fd) unlocked
+0024.843 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0024.853 (0) No email will/can be sent - the user has not configured an email address.
+0024.856 (0) The backup apparently succeeded and is now complete

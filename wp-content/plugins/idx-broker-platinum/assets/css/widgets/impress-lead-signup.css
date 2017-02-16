@@ -1,0 +1,12 @@
+.impress-lead-signup input, .idx-modal-shortcode-preview input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.impress-lead-signup .error {
+    color: red;
+    padding: 0.5rem 0;
+}
+.impress-lead-signup .input-error {
+    border-color: red;
+}

@@ -1,0 +1,95 @@
+ /* =============================================================================
+  REAL ESTATE THEME BY MARK FAIL
+   ========================================================================== */
+   
+ 
+@import url(style_childtheme.css);
+
+/* REMOVE ROUNDED CORNERS */ 
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+} 
+
+
+a { color:#444; }
+
+/*------------------------------------------------------*/
+/* BODY
+/*------------------------------------------------------*/
+
+body { background: #C5C5C5 url(img/bg.png); font-family: 'Roboto', sans-serif; }
+
+.page-wrapper {padding:10px; padding-top:0px; background:#fff;   -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.05); box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.05); }
+
+/*------------------------------------------------------*/
+/* LOGO
+/*------------------------------------------------------*/
+
+#core_logo .main { color:#666; }
+
+#core_logo .submain { color:#999; font-size:12px; }
+
+/*------------------------------------------------------*/
+/* TOP NAVIGATION
+/*------------------------------------------------------*/
+
+#core_header_navigation { border-bottom: 1px dotted #ddd; }
+#core_header_navigation .nav > li a, #core_header_navigation .welcometext {
+    color: #999;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#core_menu_wrapper .nav > li > a:before {
+    position:absolute;
+    content:"";
+    width:1px;
+    height:15px;
+    right:0;
+    top:50%;
+    margin-top:-8px;
+    background:rgba(255,255,255,.4)
+}
+
+/*------------------------------------------------------*/
+/*  MAIN MENU
+/*------------------------------------------------------*/
+#core_menu_wrapper { background:#88c354; }
+#core_menu_wrapper .nav > li {   }
+#core_menu_wrapper .nav > li > a { color: #fff; text-transform:uppercase;  }
+
+/*------------------------------------------------------*/
+/* BODY
+/*------------------------------------------------------*/
+
+#core_inner_wrap { margin-left:-15px; margin-right:-15px; }
+
+/*------------------------------------------------------*/
+/* SEARCH RESULTS
+/*------------------------------------------------------*/
+
+.search .core_middle_wrap, .archive .core_middle_wrap {   padding: 20px;  border: 1px solid #ddd; margin-bottom:20px; }
+._searchresultsblock h4 { border: 1px solid #ddd;  background: #efefef;  padding: 10px;}
+
+/*------------------------------------------------------*/
+/* PANELS
+/*------------------------------------------------------*/
+
+.panel-default {    }
+.panel-default>.panel-heading {   }
+
+/*------------------------------------------------------*/
+/* BUTTONS
+/*------------------------------------------------------*/
+
+.btn-primary {    color: #fff;    background-color: #88C354;    border-color: #88C354; }
+
+.wlt_shortcode_price {    color: #88C354; } 
+
+.home .tabstyle1 .nav-tabs {
+    border: 1px solid #88C354;
+    background: #88C354;
+}
+.home .tabstyle1 .nav-tabs>li a { color:#fff; font-weight:normal; }
+.home .tabstyle1 .nav-tabs>li.active>a { color:#666; }

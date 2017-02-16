@@ -1,0 +1,21 @@
+
+.itemdata .list-inline { margin-left:3px; }
+.itemdata .list-inline li { border:1px solid #ddd; text-align:center; width: 32%;     padding-top: 10px;    padding-bottom: 10px;     background: #F9F9F9; }
+.itemdata .list-inline li span { font-weight:bold;     font-size: 18px; }
+.itemdata .list-inline li em { display:block; font-style: normal; color:#999; }
+.itemdata .wlt_shortcode_price { font-size: 20px; }
+.wlt_search_results.list_style .itemdata .list-inline li { width:24%; }
+.wlt_search_results.grid_style .content small, .wlt_search_results.list_style .content .wlt_shortcode_excerpt { font-size:14px; }
+
+/*** HEADER MENU ***/
+.menuitems { margin-top:20px; color: #999; }
+.menuitems .icon2 { border-right:1px solid #E2E2E2; }
+.menuitems .text-area { text-align:left; }
+.menuitems .col-md-6:first-child{border-left:0}
+.menuitems i{font-size:34px;color:#000; vertical-align:middle}
+.menuitems i:before{width:auto}
+ 
+.menuitems h3{ font-size:16px;margin:0;line-height:1.5 }
+.menuitems p{font-size:14px;margin:0; margin-top:5px; }
+.menuitems .icon1:before { content:"\f1ac"; font-family: FontAwesome; font-size:40px; float:left; margin-right:20px; }
+.menuitems .icon2:before { content:"\f015"; font-family: FontAwesome; font-size:40px; float:left; margin-right:20px; }
